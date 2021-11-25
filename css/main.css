@@ -726,6 +726,28 @@ footer::before{
 .speaker-holder.committee .speaker-card:nth-child(2){
     border-right: 1px solid #e6e6e6;
 }
+.video-icon{
+    cursor: pointer;
+}
+.video-embed-holder .modal-body{
+padding: 0;
+padding-bottom: 40px;
+background-color: #000;
+}
+.video-embed-holder .modal-header{
+    padding: 0;
+padding-top: 40px;
+
+background-color: #000;
+}
+.video-embed-holder .modal-header .close{
+    font-size: 35px;
+    top: 10px;
+    right: 15px;
+color: #cdcdcd;
+    opacity: 1;
+    text-shadow: none;
+}
 @media only screen and (max-width: 992px) {
     .content-holder h4, .section-title p,.content-holder h5{
         font-size: 18px;
